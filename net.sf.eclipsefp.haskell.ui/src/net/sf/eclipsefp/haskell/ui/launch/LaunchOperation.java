@@ -35,7 +35,7 @@ abstract class LaunchOperation {
   }
       
   String createConfigId( final String name ) {
-    return getLaunchManager().generateUniqueLaunchConfigurationNameFrom( name );
+	  return getLaunchManager().generateLaunchConfigurationName( name );
   }
       
   ILaunchConfigurationType getConfigType() {
