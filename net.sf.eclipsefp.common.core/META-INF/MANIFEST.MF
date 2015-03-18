@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-Name: FP Common Core
-Bundle-SymbolicName: net.sf.eclipsefp.common.core
+Bundle-SymbolicName: net.sf.eclipsefp.common.core;singleton:=true
 Bundle-Version: 0.10.0
 Bundle-ClassPath: commoncore.jar
 Bundle-Activator: net.sf.eclipsefp.common.core.CommonCorePlugin
